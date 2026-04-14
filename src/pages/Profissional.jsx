@@ -2,10 +2,10 @@ import { useLocation, useNavigate } from "react-router-dom";
 import { useState } from "react";
 import Card from "../components/Card";
 
-function Profissionais() {
+function Profissional() {
   const navigate = useNavigate();
   const location = useLocation();
-  const state = location.state || {}; // 🔥 CORREÇÃO
+  const state = location.state || {}; // 🔥 Cn
 
   const [prof, setProf] = useState(null);
 
